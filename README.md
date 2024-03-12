@@ -30,3 +30,19 @@ npx eslint src --ext .ts,.tsx
 ```
 npx eslint src --ext .ts,.tsx --fix
 ```
+8. Para ficar mais prático, esse comando pode ser configurado dentro seu projeto, acrescentando no seu arquivo package.json, a linha:
+```
+   "scripts": {
+   --------------
+   "lint": "eslint src --ext .ts,.tsx"
+  },
+  ```
+10. Quando for executar o lint, basta digitar no terminal:
+```
+npm run lint
+```
+11. E quando for corrigir todos os arquivos, basta dá o comando no terminal:
+```
+npm run lint --fix
+```
+
