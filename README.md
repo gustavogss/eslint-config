@@ -1,4 +1,4 @@
-## Configuração do Eslint em Projetos React
+## Configuração do Eslint em Projetos React com Typescript
 
 1. Apague tudo que tiver no arquivo .eslintrc e troque a extensão para .json
 
