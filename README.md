@@ -26,4 +26,7 @@ npm i @rocketseat/eslint-config -D
 ```
 npx eslint src --ext .ts,.tsx 
 ```
-7. Para corrigir os erros automaticamente, basta entrar em cada projeto e salvo-lo novamente.
+7. Para corrigir todos os erros, basta digitar o comando:
+```
+npx eslint src --ext .ts,.tsx --fix
+```
